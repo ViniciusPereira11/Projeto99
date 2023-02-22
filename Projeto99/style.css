@@ -1,0 +1,46 @@
+body{
+    background-image:linear-gradient(white, rgb(255, 202, 89));
+   background-size: cover;
+}
+
+h1{
+    font-family: cursive;
+    font-weight: 900;
+}
+
+h4{
+    color:coral;
+    font-family: cursive;
+}
+h3{
+    font-family: cursive;
+}
+label{
+    font-family: cursive;
+}
+#camera{
+    width:500px;
+    height:400px;
+    border: solid 2px;
+}
+img{
+    width:500px;
+    height:350px;
+    border-radius: 36px;
+    padding: 20px;
+    box-shadow: 0 6px 8px rgb(112, 60, 0);
+    margin: 20px;
+}
+img:hover{
+
+transform: scale(1.1);
+}
+
+#nome{
+position: fixed;
+bottom:0;
+width:100%;
+font-size: 25px;
+background:white;
+text-align: center;
+}
